@@ -1,0 +1,12 @@
+body{
+    max-width: 100vw;
+}
+.chart{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px gray;
+}
+.chartTitle{
+    margin-bottom: 20px;
+}

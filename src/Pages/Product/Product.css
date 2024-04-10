@@ -1,0 +1,117 @@
+.product{
+    flex: 4;
+}
+.productContainer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.createProductBtn{
+    border: none;
+    padding: 7px 10px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.productTop{
+    display: flex;
+}
+.productTopRight, .productTopLeft{
+    flex: 1;
+}
+.productTopRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 15px -10px gray;
+}
+.productInfoTop{
+    display: flex;
+    align-items: center;
+}
+.productInfoTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.productInfoImg{
+    width: 200px;
+    /* height: 150px; */
+}
+.productInfoBottom{
+    width: 300px;
+    margin: 10px 0;
+}
+.productInfoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.productInfoKey{
+    font-weight: 600;
+}
+.productInfoValue{
+    font-weight: 200;
+    color: rgb(109, 109, 109);
+}
+.productBottom{
+    padding: 20px 40px;
+    margin: 20px;
+    box-shadow:  0 0 15px -10px gray;
+}
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productFormLeft > label{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgb(156, 156, 156);
+}
+.productFormLeft > input{
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.productFormLeft select{
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid lightgray;
+}
+.productFormRight{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.productUploader{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fileInput{
+    display: none;
+}
+.fileInput.show{
+    display: block;
+}
+.productAddBtn{
+    margin: 15px 0;
+    padding: 5px 7px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+}
